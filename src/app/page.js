@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
-      <h1 className="text-4xl text-center p-10 font-extrabold">Shop Tax Free in Three Easy Steps</h1>
+      <h1 className="text-4xl text-center p-10 font-extrabold">Discover us in Three Easy Steps</h1>
       <div className="flex justify-center justify-evenly">
       <Card/>
       <Card/>
