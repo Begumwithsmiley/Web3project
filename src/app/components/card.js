@@ -1,12 +1,12 @@
-export default function Card(){
+export default function Card(props){
 return(
 <div className="card w-96 glass">
-    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!" /></figure>
+    <figure><img src={props.image} alt="car!" /></figure>
     <div className="card-body">
-        <h2 className="card-title">Life hack</h2>
-        <p>How to park your car at your garage?</p>
+        <h2 className="card-title">{props.title}</h2>
+        <p>{props.description}</p>
         <div className="card-actions justify-end">
-            <button className="btn btn-primary">Learn now!</button>
+            <button className="btn btn-primary">{props.button}</button>
         </div>
     </div>
 </div>
